@@ -1,3 +1,56 @@
-h1{
-    color:lightcoral;
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color:beige;
+}
+  
+.calculator{
+   width: 400px;
+   margin:50px auto;
+   padding:30px ;
+   background-color: blanchedalmond;
+   border:1px solid;
+   border-radius: 10px;
+}
+
+.dispaly{
+   width: 200%;
+   height:60px;
+   font-size: 35px;
+   text-align: right;
+   padding: 10px;
+   border-radius: 10px;
+
+
+}
+.keys{
+   display: grid;
+   grid-template-columns:repeat(4,1fr) ;
+   gap: 10px;
+   margin-top: 20px;
+}
+
+.key{
+   height: 60px;
+   font-size: 20px;
+   border-radius: 5px;
+   background-color: cadetblue;
+   cursor: pointer;
+}
+.keyh{
+   height: 60px;
+   font-size: 20px;
+   border-radius: 5px;
+   color: crimson;
+   background-color: lavenderblush;
+   cursor: pointer;
+}
+input{
+   width: 310px;
+   height: 10px;
+   padding: 25px;
+   margin:10px;
+   background: white;
+   font-size: 40px;
+   text-align: right;
+   cursor: pointer;
 }
