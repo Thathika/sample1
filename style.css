@@ -1,13 +1,13 @@
 body{
    font-family: Arial, Helvetica, sans-serif;
-   background-color:beige;
+   background-color:white;
 }
   
 .calculator{
    width: 400px;
    margin:50px auto;
    padding:30px ;
-   background-color: blanchedalmond;
+   background-color:darkgray;
    border:1px solid;
    border-radius: 10px;
 }
@@ -33,15 +33,15 @@ body{
    height: 60px;
    font-size: 20px;
    border-radius: 5px;
-   background-color: cadetblue;
+   background-color:white;
    cursor: pointer;
 }
 .keyh{
    height: 60px;
    font-size: 20px;
    border-radius: 5px;
-   color: crimson;
-   background-color: lavenderblush;
+   color:orange;
+   background-color:dimgray;
    cursor: pointer;
 }
 input{
